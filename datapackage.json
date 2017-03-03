@@ -1,0 +1,43 @@
+{
+  "name": "ct-school-district-list",
+  "title": "CT School District List",
+  "description": "List of Connecticut school districts and reference fixed school districts along with FIPS codes.",
+  "version": "1.0",
+  "license": {
+    "type": "Open Data Commons Public Domain",
+    "url": "http://opendatacommons.org/licenses/pddl/"
+  },
+  "author": {
+    "name": "Jenna Daly",
+    "email": "jdaly@ctdata.org",
+    "web": "http://ctdata.org"
+  },
+  "resources": [
+    {
+      "schema": {
+        "fields": [ 		
+          {
+            "name": "District",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "FixedDistrict",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "FIPS",
+            "type": "string",
+            "format": "default"
+          }
+          ]
+      },
+      "name": "school_district_fips",
+      "title": "School District Fips",
+      "path": "ct-school-district-list-with-fips.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    }
+    ]
+}
